@@ -1,5 +1,5 @@
 (function() {
-  function StoryService() {
+  function StoryService($location) {
     var words = {};
 
     return {
@@ -9,7 +9,7 @@
 
     function setWords(newWords) {
       words = newWords;
-      console.log(words);
+      $location.path("/story");
     }
 
     function getWords() {
