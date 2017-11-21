@@ -3,8 +3,8 @@
     var words = {};
 
     return {
-      setWords: setWords,
-      getWords: getWords
+		setWords: setWords,
+		getWords: getWords
     };
 
     function setWords(newWords) {
